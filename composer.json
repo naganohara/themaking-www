@@ -17,6 +17,7 @@
             "role": "maintenance contact"
         }
     ],
+    "license": "MIT",
     "require": {
         "php": ">=7.0.0",
         "barryvdh/laravel-ide-helper": "^2.4",
