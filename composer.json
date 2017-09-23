@@ -2,7 +2,7 @@
     "name": "naganohara/themaking-www",
     "description": "The Making Chinese Fansite.",
     "type": "project",
-    "homepage": "https://www.github.com/naganohara/themaking-www"
+    "homepage": "https://www.github.com/naganohara/themaking-www",
     "authors": [
         {
             "name": "Mio Naganohara",
@@ -19,9 +19,12 @@
     ],
     "require": {
         "php": ">=7.0.0",
+        "barryvdh/laravel-ide-helper": "^2.4",
         "fideloper/proxy": "~3.3",
         "laravel/framework": "5.5.*",
-        "laravel/tinker": "~1.0"
+        "laravel/socialite": "^3.0",
+        "laravel/tinker": "~1.0",
+        "socialiteproviders/qq": "^3.0"
     },
     "require-dev": {
         "filp/whoops": "~2.0",

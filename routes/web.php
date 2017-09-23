@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('login/qq', 'Auth\LoginController@QQAuthentication');
+
+Route::get('/home', 'HomeController@index')->name('home');

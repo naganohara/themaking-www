@@ -86,6 +86,6 @@ return [
     |
     */
 
-    'prefix' => 'laravel',
+    'prefix' => env('APP_IDENTIFIER', str_slug(env('APP_NAME'))),
 
 ];
