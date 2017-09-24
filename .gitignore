@@ -12,3 +12,5 @@ yarn-error.log
 
 /temp
 /local_only
+
+package-lock.json

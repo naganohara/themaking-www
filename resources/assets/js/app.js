@@ -1,22 +1,9 @@
+import '../sass/app.scss';
 
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
- */
+import $ from 'jquery';
+import Popper from 'popper.js/dist/umd/popper';
+import 'bootstrap/dist/js/bootstrap';
 
-require('./bootstrap');
-
-window.Vue = require('vue');
-
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
-
-Vue.component('example', require('./components/Example.vue'));
-
-const app = new Vue({
-    el: '#app'
-});
+console.log('$.ajax: ' + typeof $.ajax);
+console.log('popper: ' + typeof Popper.Defaults);
+console.log(`Hello ES${63 * (2 ** 6) / 2}`);
